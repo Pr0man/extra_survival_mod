@@ -248,5 +248,6 @@
 	"components":[
 	[ ["stick_long", 1], [ "2x4", 1] ],
 	[ ["stick", 2], ["splinter", 6] ]
+    ]
   }
 ]
