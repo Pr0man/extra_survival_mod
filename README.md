@@ -5,6 +5,8 @@ Besides allowing a basic extra plant to grow in the forests (dead bushes), it al
 
 It adds some extra convenience to a small amount of recipes, an expensive gunpowder and black gunpowder craft that is autolearned a reasonably high cooking and survival levels as well as makeshift wooden water containers, plant clothing for early naked survival, wooden vehicle parts and some more things.
 
+Beware - Acid Rain is enabled and this may throw you off.
+
 Credits:
 Myasofei for actually inticing me to set down and create this mod, giving me input on what to include, as well as pointers on how to mod at all.
 Bighat for actually pushing me onwards with creating the mod and providing valuable ideas.

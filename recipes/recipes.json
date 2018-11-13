@@ -64,7 +64,7 @@
 	"category": "CC_OTHER",
 	"subcategory": "CSC_OTHER_TOOLS",
 	"skill_used": "survival",
-	"difficulty": 2,
+	"difficulty": 1,
 	"time": 60000,
 	"autolearn": true,
 	"qualities":[
@@ -82,7 +82,7 @@
 	"category": "CC_WEAPON",
 	"subcategory": "CSC_WEAPON_PIERCING",
 	"skill_used": "fabrication",
-	"difficulty": 3,
+	"difficulty": 2,
 	"skills_required": [ "stabbing", 1 ],
 	"time": 90000,
 	"autolearn": true,
@@ -103,7 +103,7 @@
 	"subcategory": "CSC_WEAPON_PIERCING",
 	"skill_used": "fabrication",
 	"skills_required": [ "stabbing", 3 ],
-	"difficulty": 5,
+	"difficulty": 4,
 	"time": 120000,
 	"autolearn": true,
 	"qualities":[
@@ -184,8 +184,8 @@
 	"category": "CC_OTHER",
 	"subcategory": "CSC_OTHER_CONTAINERS",
 	"skill_used": "fabrication",
-	"skills_required": [ "survival", 3 ],
-	"difficulty": 4,
+	"skills_required": [ "survival", 2 ],
+	"difficulty": 3,
 	"time": 90000,
 	"autolearn": true,
 	"qualities":[
@@ -206,7 +206,7 @@
 	"subcategory": "CSC_OTHER_CONTAINERS",
 	"skill_used": "fabrication",
 	"skills_required": [ "survival", 3 ],
-	"difficulty": 5,
+	"difficulty": 4,
 	"time": 180000,
 	"autolearn": true,
 	"qualities":[
@@ -219,7 +219,7 @@
 	[ [ "scrap", 6 ] ]
 				]
   },
-    {
+  {
     "type": "recipe",
 	"result": "seed_poppy",
 	"category": "CC_FOOD",
@@ -231,5 +231,22 @@
 	"components":[
 	[ [ "poppy_bud", 1 ] ]
 				]
+  },
+  {
+    "type": "recipe",
+	"result": "weave_rack",
+	"category": "CC_OTHER",
+	"subcategory": "CC_OTHER_TOOLS",
+	"skill_used": "fabrication",
+	"skills_required": [ "tailor", 1],
+	"difficulty": 2,
+	"time": 15000
+	"autolearn": true,
+	"qualities": [
+	{ "id": "CUT", "level": 1}
+	],
+	"components":[
+	[ ["stick_long", 1], [ "2x4", 1] ],
+	[ ["stick", 2], ["splinter", 6] ]
   }
 ]
