@@ -21,67 +21,67 @@
         "post_terrain" : "f_butcher_rack"
     },
 	{
-		"type" : "construction",
-		"description" : "Build manual Water Well",
-		"category" : "CONSTRUCT",
-		"required_skills" : [ [ "fabrication", 4 ], [ "mechanics", 1 ] ],
-		"time" : 320,
-		"qualities": [
-			[
-			{ "id": "HAMMER", "level": 2 }
-			],
-			[
-			{ "id": "SCREW", "level": 1 }
-			]
-			],
-		"components" : [
-			[ [ "2x4", 6], [ "stick", 12], [ "stick_long", 6] ],
-			[ [ "rope_30", 1], [ "rope_makeshift_30", 1] ],
-			[ [ "nail", 10] ],
-			[ [ "bucket", 1], [ "pot", 1], [ "clay_pot", 1], [ "rock_pot", 1], [ "pot_copper", 1], [ "bucket_wood", 1] ]
+	"type" : "construction",
+	"description" : "Build manual Water Well",
+	"category" : "CONSTRUCT",
+	"required_skills" : [ [ "fabrication", 4 ], [ "mechanics", 1 ] ],
+	"time" : 320,
+	"qualities": [
+		[
+		{ "id": "HAMMER", "level": 2 }
 		],
-		"pre_terrain" : "t_covered_well",
-		"post_terrain" : "t_manual_well"
+		[
+		{ "id": "SCREW", "level": 1 }
+		]
+		],
+	"components" : [
+		[ [ "2x4", 6], [ "stick", 12], [ "stick_long", 6] ],
+		[ [ "rope_30", 1], [ "rope_makeshift_30", 1] ],
+		[ [ "nail", 10] ],
+		[ [ "bucket", 1], [ "pot", 1], [ "clay_pot", 1], [ "rock_pot", 1], [ "pot_copper", 1], [ "bucket_wood", 1] ]
+	],
+	"pre_terrain" : "t_covered_well",
+	"post_terrain" : "t_manual_well"
 	},
 	{
-		"type": "construction",
-		"description": "Build Weaving Rack",
-		"category": "CONSTRUCT",
-		"required_skills" : [ [ "fabrication", 3 ], [ "survival", 2] ],
-		"time": 100,
-		"qualities": [
-		   [
-		      { "id": "HAMMER", "level": 2 },
-			  { "id": "SAW_W", "level": 1 },
-			  { "id": "CUT", "level": 1 }
-		   ]
-		],
-		"components": [
-		  [ [ "stick_long", 1 ], ["2x4", 1] ],
-		  [ [ "stick", 4 ], [ "stick_long", 2], ["2x4", 2] ]
-		],
-		"pre_terrain": "t_dirt",
-		"post_terrain": "t_weave_rack"
+	"type": "construction",
+	"description": "Build Weaving Rack",
+	"category": "CONSTRUCT",
+	"required_skills" : [ [ "fabrication", 3 ], [ "survival", 2] ],
+	"time": 100,
+	"qualities": [
+	   [
+	      { "id": "HAMMER", "level": 2 },
+		  { "id": "SAW_W", "level": 1 },
+		  { "id": "CUT", "level": 1 }
+	   ]
+	],
+	"components": [
+	  [ [ "stick_long", 1 ], ["2x4", 1] ],
+	  [ [ "stick", 4 ], [ "stick_long", 2], ["2x4", 2] ]
+	],
+	"pre_terrain": "t_dirt",
+	"post_terrain": "t_weave_rack"
 	},
 	{
-		"type": "construction",
-		"skill": "survival",
-		"description": "Build Improvised Shelter",
-		"category": "CONSTRUCT",
-		"required_skills": [ [ "survival", 2 ] ],
-		"time": 100,
-		"qualities": [
-		  [
-			{ "id": "HAMMER", "level": 1 }
-		  ]
-		],
-		"components": [
-		  [ [ "stick_long", 6 ], [ "2x4", 6 ] ],
-		  [ [ "pine_bough", 3 ], [ "willowbark", 6 ], [ "leather", 6 ] ],
-		  [ [ "pine_bough", 3 ], [ "willowbark", 6 ], [ "leather", 6 ] ],
-		  [ [ "pine_bough", 3 ], [ "willowbark", 6 ], [ "leather", 6 ] ]
-		],
-		"pre_terrain": "t_dirt",
-		"post_terrain": "t_improvised_shelter"
+	"type": "construction",
+	"skill": "survival",
+	"description": "Build Improvised Shelter",
+	"category": "CONSTRUCT",
+	"required_skills": [ [ "survival", 2 ] ],
+	"time": 100,
+	"qualities": [
+	  [
+		{ "id": "HAMMER", "level": 1 }
+	  ]
+	],
+	"components": [
+	  [ [ "stick_long", 6 ], [ "2x4", 6 ] ],
+	  [ [ "pine_bough", 3 ], [ "willowbark", 6 ], [ "leather", 6 ] ],
+	  [ [ "pine_bough", 3 ], [ "willowbark", 6 ], [ "leather", 6 ] ],
+	  [ [ "pine_bough", 3 ], [ "willowbark", 6 ], [ "leather", 6 ] ]
+	],
+	"pre_terrain": "t_dirt",
+	"post_terrain": "t_improvised_shelter"
 	}
 ]
