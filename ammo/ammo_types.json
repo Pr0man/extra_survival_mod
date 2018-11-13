@@ -1,0 +1,8 @@
+[
+	{
+		"id": "ball",
+		"name": "balls",
+		"default": "ball_stone",
+		"type": "ammunition_type"
+	}
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "tool_quality",
+    "id": "SHARP",
+    "name": "sharpening"
+  },
+  {
+    "type": "tool_quality",
+	"id": "WEAVING",
+	"name": "weaving"
+  }
+]

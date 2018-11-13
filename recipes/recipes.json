@@ -1,0 +1,235 @@
+[
+  {
+    "type": "uncraft",
+	"result": "dried_plant",
+	"skill_used": "survival",
+	"difficulty": 2,
+	"time": 2500,
+	"qualities": [ { "id": "CUT", "level":1 } ],
+	"components": [ [ [ "plant_fibre", 25 ] ] ]
+  },
+  {
+    "type": "uncraft",
+	"result": "wood_plate",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": 2500,
+	"qualities": [ { "id": "CUT", "level":1 } ],
+	"components": [
+			[ [ "stick", 8 ] ],
+			[ ["string_36",2 ] ]
+			]
+  },
+  {
+	"type": "recipe",
+	"result": "wheel_wood_bike",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_VEHICLE",
+	"skill_used": "fabrication",
+	"difficulty": 5,
+	"time": 90000,
+	"autolearn": true,
+	"qualities": [
+	{ "id": "CUT", "level":1 },
+	{ "id": "SAW_W", "level":1 },
+	{ "id": "HAMMER", "level":2 },
+	{ "id": "SCREW", "level": 1 }
+				 ],
+	"components":[
+	  [	[ "2x4", 8 ] ],
+	  [ [ "nail", 20] ],
+	  [ [ "scrap", 10] ]
+				 ]
+  },
+  {
+	"type": "recipe",
+	"result": "whetstone",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "survival",
+	"difficulty": 1,
+	"time": 15000,
+	"autolearn": true,
+	"qualities":[
+	  {"id": "HAMMER", "level": 1 }		
+				],
+	"components":[
+	  [  [ "sharp_rock", 1] ],
+	  [  [ "rock", 1 ] ]
+				]
+  },
+  {
+	"type": "recipe",
+	"result": "blade_stone",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_TOOLS",
+	"skill_used": "survival",
+	"difficulty": 2,
+	"time": 60000,
+	"autolearn": true,
+	"qualities":[
+	  {"id": "HAMMER", "level": 1 },
+	  {"id": "SHARP", "level": 1 }
+				],
+	"components":[
+	  [  [ "sharp_rock", 1], [ "rock", 1], ["ceramic_shard", 1] ],
+	  [  [ "withered", 2], [ "filament", 50, "LIST"], [ "rag", 1] ]
+				]
+  },
+  {
+	"type": "recipe",
+	"result": "lance_wood",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_PIERCING",
+	"skill_used": "fabrication",
+	"difficulty": 3,
+	"skills_required": [ "stabbing", 1 ],
+	"time": 90000,
+	"autolearn": true,
+	"qualities":[
+	  {"id": "CUT", "level": 1 },
+	  {"id": "SHARP", "level": 1 }
+				],
+	"components":[
+	  [  [ "stick", 6], [ "2x4", 3], ["stick_long", 3] ],
+	  [  [ "withered", 2], [ "filament", 50, "LIST"], [ "rag", 1] ],
+	  [  [ "adhesive", 1, "LIST"] ] 
+				] 
+  },
+  {
+	"type": "recipe",
+	"result": "lance_iron",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_PIERCING",
+	"skill_used": "fabrication",
+	"skills_required": [ "stabbing", 3 ],
+	"difficulty": 5,
+	"time": 120000,
+	"autolearn": true,
+	"qualities":[
+	  {"id": "CUT", "level": 1 },
+	  {"id": "HAMMER", "level": 2 },
+	  {"id": "SHARP", "level": 1 }
+				],
+	"components":[
+	  [  [ "stick", 6], [ "2x4", 3], ["stick_long", 3] ],
+	  [  [ "withered", 2], [ "filament", 50, "LIST"], [ "rag", 1] ],
+	  [  [ "scrap", 9], [ "steel_chunk", 3], ["steel_lump", 1] ],
+	  [  [ "adhesive", 1, "LIST"] ] 
+				] 
+  },
+  {
+    "type": "recipe",
+    "result": "sling_mounted",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_RANGED",
+	"skill_used": "fabrication",
+	"skills_required": [ "throw", 2 ],
+	"difficulty": 3,
+	"time": 30000,
+	"autolearn": true,
+	"qualities": [
+	  {"id": "CUT", "level": 1 },
+	  {"id": "HAMMER", "level": 2 },
+	  {"id": "SAW_W", "level": 1 }
+				 ],
+	"components": [
+	  [  [ "stick", 12], [ "2x4", 6], [ "stick_long", 6] ],
+	  [  [ "string_36", 2], [ "filament", 600, "LIST"], [ "withered", 24 ] ],
+	  [  [ "leather", 4 ], [ "tanned_hide", 1] , [ "tanned_pelt", 1 ] ],
+	  [  [ "adhesive", 2, "LIST"] ]
+	  ]
+  },
+  {
+	"type": "recipe",
+	"result": "soaked_plant",
+	"category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+	"skills_required": [ "cooking", 2 ],
+	"difficulty": 3,
+	"time": 60000,
+	"batch_time_factors": [90, 5],
+	"autolearn": true,
+	"qualities":[
+      { "id": "CUT", "level": 1 },
+      { "id": "CONTAIN", "level": 1 }
+				],
+	"components":[
+      [ [ "water_clean", 2 ], [ "water", 2 ] ],
+	  [ [ "withered", 1] ]
+				]
+  },
+  {
+    "type": "recipe",
+	"result": "bowl_wood",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_CONTAINERS",
+	"skill_used": "fabrication",
+	"skills_required": [ "survival", 2 ],
+	"difficulty": 2,
+	"time": 30000,
+	"autolearn": true,
+	"qualities":[
+	  { "id": "CUT", "level": 1},
+	  { "id": "SAW_W", "level": 1}
+				],
+	"components":[
+	[ [ "2x4", 1 ] ]
+				]
+  },
+  {
+    "type": "recipe",
+	"result": "bucket_wood",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_CONTAINERS",
+	"skill_used": "fabrication",
+	"skills_required": [ "survival", 3 ],
+	"difficulty": 4,
+	"time": 90000,
+	"autolearn": true,
+	"qualities":[
+	{ "id": "CUT", "level": 1},
+	{ "id": "SAW_W", "level": 1},
+	{ "id": "HAMMER", "level": 2}
+				],
+	"components":[
+	[ [ "2x4", 8 ] ],
+	[ [ "scrap", 3 ] ],
+	[ [ "string_36", 1], [ "withered", 12], [ "filament", 300, "LIST" ] ]
+				]
+  },
+  {
+    "type": "recipe",
+	"result": "barrel_small_wood",
+	"category": "CC_OTHER",
+	"subcategory": "CSC_OTHER_CONTAINERS",
+	"skill_used": "fabrication",
+	"skills_required": [ "survival", 3 ],
+	"difficulty": 5,
+	"time": 180000,
+	"autolearn": true,
+	"qualities":[
+	{ "id": "CUT", "level": 1},
+	{ "id": "SAW_W", "level": 1},
+	{ "id": "HAMMER", "level": 2}
+				],
+	"components":[
+	[ [ "2x4", 16 ] ],
+	[ [ "scrap", 6 ] ]
+				]
+  },
+    {
+    "type": "recipe",
+	"result": "seed_poppy",
+	"category": "CC_FOOD",
+	"subcategory": "CSC_FOOD_SEEDS",
+	"skill_used": "survival",
+	"difficulty": 2,
+	"time": 1000,
+	"autolearn": true,
+	"components":[
+	[ [ "poppy_bud", 1 ] ]
+				]
+  }
+]

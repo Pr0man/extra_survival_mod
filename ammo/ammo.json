@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ball_stone",
+    "type": "AMMO",
+    "name": "stone ball",
+    "description": "A stone ball smoothed out of a rock. Due to it's mass it should pack quite the punch. Stands a very good chance of staying intact after firing.",
+    "weight": 1500,
+    "volume": 1,
+    "price": 2000,
+    "bashing": 1,
+    "material": [ "stone" ],
+    "symbol": "*",
+    "color": "gray",
+    "count": 1,
+    "ammo_type": "ball",
+    "range": 5,
+    "damage": 25,
+    "pierce": 0,
+    "effects": [ "RECOVER_50" ]
+  },
+  {
+    "id": "ball_iron",
+    "type": "AMMO",
+    "name": "iron ball",
+    "description": "An iron ball cast from a forge. It's density should really make quite the difference. Stands an excellent chance of staying intact after firing.",
+    "weight": 3000,
+    "volume": 1,
+    "price": 2000,
+    "bashing": 1,
+    "material": [ "iron" ],
+    "symbol": "*",
+    "color": "white",
+    "count": 10,
+    "ammo_type": "ball",
+    "range": 1,
+    "damage": 50,
+    "pierce": 5,
+    "effects": [ "RECOVER_75" ]
+  }
+]

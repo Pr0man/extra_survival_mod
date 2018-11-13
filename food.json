@@ -1,0 +1,23 @@
+[
+  {
+    "id": "raisin",
+    "type": "COMESTIBLE",
+	"name": "raisins",
+	"name_plural": "raisins",
+    "comestible_type": "FOOD",
+    "weight": 28,
+    "color": "purple",
+    "spoils_in": 1080,
+    "symbol": "%",
+    "quench": -1,
+    "healthy": 1,
+    "calories": 51,
+    "description": "Tasty raisins, made from dehydrating grapes.",
+    "price": 90,
+    "material": "fruit",
+    "volume": 1,
+    "flags": [ "EDIBLE_FROZEN" ],
+    "charges": 4,
+    "fun": 2
+  }
+]

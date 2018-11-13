@@ -1,0 +1,36 @@
+[
+	{
+		"type": "recipe",
+		"result": "ball_stone",
+		"category": "CC_AMMO",
+		"subcategory": "CSC_AMMO_OTHER",
+		"skill_used": "fabrication",
+		"difficulty": 1,
+		"time": 5000,
+		"batch_time_factors": [50, 10],
+		"autolearn": true,
+		"qualities": [
+			{ "id": "HAMMER", "level": 2 },
+			{ "id": "SHARP", "level": 1 }
+		],
+		"components": [
+		  [  [ "rock", 5 ], [ "sharp_rock", 5 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"result": "ball_iron",
+		"category" : "CC_AMMO",
+		"subcategory": "CSC_AMMO_OTHER",
+		"skill_used": "fabrication",
+		"difficulty": 5,
+		"time": 90000,
+		"batch_time_factors": [90, 5 ],
+		"autolearn": true,
+		"qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+		"tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 100 ], [ "oxy_torch", 40 ] ] ],
+		"components": [
+		  [  [ "steel_lump", 1], [ "steel_chunk", 4], [ "scrap", 12] ]
+		]
+	}
+]

@@ -1,0 +1,57 @@
+[
+	{
+		"type" : "profession",
+		"ident": "survivor_bio",
+		"name" : "Bionic Survivalist",
+		"description": "After outfitting yourself with utility-bionics to have something useful in every situation, you decided to hit the wild and be on your own. With the cataclysm striking now, you'll be put to the test.",
+		"points": 4,
+		"CBMs": [
+				"bio_power_storage_mkII",
+				"bio_ears",
+				"bio_laser",
+				"bio_lighter",
+				"bio_watch",
+				"bio_torsionratchet"
+				],
+		"skills": [
+		
+					{
+						"level": 3,
+						"name": "survival"
+					},
+					{
+						"level": 2,
+						"name": "tailor"
+					},
+					{
+						"level": 2,
+						"name": "fabrication"
+					},
+					{
+						"level": 1,
+						"name": "cooking"
+					}
+				  ],
+		"items": {
+				"both": [
+						"knit_scarf",
+						"undershirt",
+						"jacket_light",
+						"gloves_light",
+						"pants",
+						"socks",
+						"sneakers",
+						"hat_cotton",
+						"pockknife",
+						"backpack"
+						],
+				"male": [
+						"boxer_shorts"
+						],
+				"female":[
+						"bra",
+						"panties"
+						]
+				}
+	}
+]

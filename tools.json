@@ -1,0 +1,48 @@
+[
+	{
+		"id": "blade_stone",
+		"type": "TOOL",
+		"name": "stone blade",
+		"description": "A knife consisting of crudely-worked, somewhat-sharpened stone surface and a wrapped handle.  Primitive, but manages to cut things.",
+		"weight": 750,
+		"volume": 1,
+		"price": 0,
+		"bashing": 1,
+		"cutting": 7,
+		"material": [ "stone" ],
+		"symbol": ";",
+		"color": "gray",
+		"qualities": [ [ "CUT", 1 ], [ "BUTCHER", 1 ] ],
+		"flags": [ "STAB", "SHEATH_KNIFE" ]
+	},
+	{
+		"id": "whetstone",
+		"type": "TOOL",
+		"name": "whetstone",
+		"description": "a coarse stone with a rough surface, used to sharpen edges or to shave off impurities.",
+		"weight": 2000,
+		"volume": 1.5,
+		"price": 0,
+		"bashing": 4,
+		"to_hit": -1,
+		"material": [ "stone" ],
+		"symbol": "/",
+		"color": "gray",
+		"qualities": [ [ "SHARP", 1] ]
+	},
+	{
+		"id": "weave_rack",
+		"type": "TOOL",
+		"name": "weaving rack",
+		"description": "A rack of about 1 meter's worth of length with small sticks protruding it. Not very stable, but careful weaving should be possible.",
+		"weight": 5000,
+		"volume": 20,
+		"price": 0,
+		"bashing": 4,
+		"to_hit": -1,
+		"material": [ "wood" ],
+		"symbol": "=",
+		"color": "brown",
+		"qualities": [ [ "WEAVING", 1] ]
+	}
+]

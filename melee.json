@@ -1,0 +1,38 @@
+[
+	{
+        "type": "GENERIC",
+        "id" : "lance_wood",
+        "name" : "wooden lance",
+        "description" : "A 4m long wooden pole with a simple grip and a fire-hardened point. Quite the long range but bulky and slow as a result.",
+        "weight" : 4000,
+        "to_hit" : 1,
+        "color" : "brown",
+        "symbol" : "/",
+        "material" : ["wood"],
+        "techniques" : ["WBLOCK_1", "IMPALE"],
+        "volume" : 10,
+        "bashing" : 4,
+        "cutting" : 20,
+        "flags" : ["SPEAR", "REACH_ATTACK", "REACH3", "NONCONDUCTIVE", "SHEATH_SPEAR", "FRAGILE_MELEE"],
+        "price" : 4000,
+        "qualities": [["COOK", 1]]
+    },
+	{
+        "type": "GENERIC",
+        "id" : "lance_iron",
+        "name" : "iron-tipped wooden lance",
+        "description" : "A 4m long wooden pole with a fine grip and a sharpened metal point. Has great reach, but is very bulky and slow to use.",
+        "weight" : 4500,
+        "to_hit" : 1,
+        "color" : "brown",
+        "symbol" : "/",
+        "material" : ["wood", "iron"],
+        "techniques" : ["WBLOCK_1", "IMPALE"],
+        "volume" : 10,
+        "bashing" : 6,
+        "cutting" : 28,
+        "flags" : ["SPEAR", "REACH_ATTACK", "REACH3", "NONCONDUCTIVE", "SHEATH_SPEAR"],
+        "price" : 4000,
+        "qualities": [["COOK", 1]]
+	}
+]

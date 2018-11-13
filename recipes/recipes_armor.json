@@ -1,0 +1,93 @@
+[
+  {
+	"type": "recipe",
+	"result": "plant_shirt",
+	"category": "CC_ARMOR",
+	"subcategory": "CSC_ARMOR_TORSO",
+	"skill_used": "survival",
+	"skills_required": [ "tailor", 1 ],
+	"difficulty": 2,
+	"time": 120000,
+	"autolearn": true,
+	"qualities": [
+	{ "id": "CUT", "level":1 },
+	{ "id": "WEAVING", "level":1 }
+				 ],
+	"components":[
+	  [	[ "withered", 40 ] ]
+				 ]
+  },
+  {
+	"type": "recipe",
+	"result": "plant_pants",
+	"category": "CC_ARMOR",
+	"subcategory": "CSC_ARMOR_LEGS",
+	"skill_used": "survival",
+	"skills_required": [ "tailor", 1 ],
+	"difficulty": 2,
+	"time": 120000,
+	"autolearn": true,
+	"qualities": [
+	{ "id": "CUT", "level":1 },
+	{ "id": "WEAVING", "level":1 }
+				 ],
+	"components":[
+	  [	[ "withered", 40 ] ]
+				 ]
+  },
+  {
+	"type": "recipe",
+	"result": "plant_cloak",
+	"category": "CC_ARMOR",
+	"subcategory": "CSC_ARMOR_SUIT",
+	"skill_used": "survival",
+	"skills_required": [ "tailor", 1 ],
+	"difficulty": 2,
+	"time": 180000,
+	"autolearn": true,
+	"qualities": [
+	{ "id": "CUT", "level":1 },
+	{ "id": "WEAVING", "level":1 }
+				 ],
+	"components":[
+	  [	[ "withered", 70 ] ]
+				 ]
+  },
+  {
+	"type": "recipe",
+	"result": "wood_plate",
+	"category": "CC_ARMOR",
+	"subcategory": "CSC_ARMOR_TORSO",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": 15000,
+	"autolearn": true,
+	"qualities":[
+	{ "id": "CUT", "level":1 }
+	],
+	"components":[
+	  [ [ "2x4", 4 ], [ "stick", 8 ] ],
+	  [ [ "string_36", 2], [ "withered", 24 ] ]
+				 ]
+  },
+    {
+	"type": "recipe",
+	"result": "birch_pack",
+	"category": "CC_ARMOR",
+	"subcategory": "CSC_ARMOR_STORAGE",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"skills_required": [ "tailor", 1],
+	"time": 15000,
+	"autolearn": true,
+	"qualities":[
+	{ "id": "CUT", "level":1 },
+	{ "id": "SEW", "level":1 }
+	],
+	"components":[
+	  [ [ "birchbark", 10 ] ],
+	  [ [ "2x4", 2 ], [ "stick", 4 ] ],
+	  [ [ "string_36", 2], [ "withered", 24 ] ]
+				 ]
+  }
+]

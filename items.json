@@ -1,0 +1,52 @@
+[   
+	{
+        "type":"GENERIC",
+        "id": "soaked_plant",
+        "symbol": "%",
+        "color": "gray",
+        "name": "soaked plant",
+        "description": "A dead plant that has been soaked with water. Once it has dried, you can use it to remove the coarse materials.",
+        "material": "wood",
+        "weight": 20,
+        "volume": 1,
+        "to_hit": -2,
+		"use_action": {
+		"target": "dried_plant",
+		"msg": "You carefully shake off the rough material, revealing the dried plant matter.",
+		"moves": 150,
+		"type": "delayed_transform",
+		"transform_age": 28800,
+		"not_ready_msg": "The soaked plant isn't done yet.",
+        "flags": [ "TRADER_AVOID" ]
+    }
+	},
+	{	
+        "type":"GENERIC",
+        "id": "dried_plant",
+        "symbol": "%",
+        "color": "light_gray",
+        "name": "dried plant",
+        "description": "A plant that has been soaked and carefully dried. Now the fibrous material is visible.",
+        "material": "wood",
+        "weight": 20,
+        "volume": 1,
+        "to_hit": -2
+	},
+	{
+		"type":"WHEEL",
+		"id": "wheel_wood_bike",
+		"name": "wooden bike wheel",
+		"category": "veh_parts",
+		"description": "A homemade wooden wheel meant to be put on a bike.",
+		"symbol": "]",
+		"color": "brown",   
+		"weight": 4000,
+		"volume": 25,
+		"price": 1200,
+		"bashing": 8,
+		"to_hit": -4,
+		"material": [ "wood" ],
+		"diameter": 17,
+		"width": 4
+	}
+]

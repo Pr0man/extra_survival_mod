@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "Extra_survival",
+    "name": "Extra Survival mod",
+    "authors": [ "Pr0man" ],
+    "description": "A mod that is meant to add convenience changes and some extra crafting recipies in order to make Wilderness survival more bearable.",
+    "category": "misc_additions",
+"dependencies": [ "dda" ]
+  }
+]

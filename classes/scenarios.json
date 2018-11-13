@@ -1,0 +1,14 @@
+[
+	{
+		"type": "scenario",
+		"ident": "wilderness",
+		"copy-from": "wilderness",
+		"extend": { "professions": ["survivor_bio", "broken_cyborg"] }
+	},
+	{
+		"type": "scenario",
+		"ident": "cyberpunk",
+		"copy-from": "cyberpunk",
+		"extend": { "professions": ["broken_cyborg"] }
+	}
+]

@@ -1,0 +1,66 @@
+[
+  {
+	"id": "tank_small_wood",
+	"type": "vehicle_part",
+	"name": "wooden barrel (10L)",
+	"location": "fuel_source",
+	"item": "barrel_small_wood",
+	"symbol": "O",
+	"color": "brown",
+	"broken_symbol": "#",
+	"broken_color": "brown",
+	"difficulty": 0,
+	"durability": 100,
+	"description": "A storage space for holding liquids.  If filled with the appropriate fuel for the vehicle's engine, the engine will automatically draw fuel from the tank when the engine is on.  If filled with water, you can access the water from a water faucet, if one is installed in the vehicle.  You can also use a rubber hose to siphon liquids out of a tank.",
+	"size": 40,
+	"damage_modifier": 100,
+	"folded_volume": 5,
+	"breaks_into": [ { "item": "splinter", "count": [3, 10] }, { "item": "scrap", "count": [0, 3 ] } ],
+    "flags": [ "NAILABLE" ]
+  },
+  {
+    "id": "wheel_wood_bike",
+    "type": "vehicle_part",
+    "name": "wooden bicycle wheel",
+    "item": "wheel_wood_bike",
+    "location": "under",
+    "symbol": "|",
+    "broken_symbol": "x",
+    "color": "brown",
+    "broken_color": "brown",
+    "durability": 30,
+    "description": "A wooden wheel.  If the center of balance of your vehicle is between all the wheels, the vehicle will be able to move, provided it has an active engine or motor with enough power to move the vehicle.",
+    "damage_modifier": 50,
+    "breaks_into": [ { "item": "2x4", "count": [ 0, 4 ] }, { "item": "nail", "charges": [ 5, 15 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": 30000, "using": "vehicle_bolt" },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "using": "vehicle_bolt" },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": 5000, "using": [ [ "adhesive", 1 ] ] }
+    },
+    "flags": [ "WHEEL" ]
+  },
+  {
+	"id": "wheel_wood_bike_s",
+    "copy-from": "wheel_wood_bike",
+	"type": "vehicle_part",
+	"name": "wooden bicycle wheel (steerable)",
+	"extend": {"flags": [ "STEERABLE" ] }
+  },
+  {
+    "id": "sling_turret",
+	"type": "vehicle_part",
+	"item": "sling_mounted",
+	"symbol": "t",
+	"color": "brown",
+	"broken_symbol": "#",
+	"broken_color": "brown",
+	"durability": 100,
+	"damage_modifier": 80,
+	"folded_volume": 5,
+	"location": "on_roof",
+	"breaks_into": [ { "item": "2x4", "count": [ 0, 8 ] }, { "item": "leather", "count": [ 0, 3 ] } ],
+	"name": "mounted sling",
+	"description": "A very wide sling, which has been mounted and is meant to be fired using manial labour. Can propell rocks to high velocity and should cause some serious damage.",
+	"flags": [ "FOLDABLE", "TURRET", "MANUAL", "TOOL_NONE", "NAILABLE" ]
+  }
+]
