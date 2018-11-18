@@ -38,86 +38,87 @@
     "effects": [ "RECOVER_75" ]
   },
   {
-	"type": "AMMO",
-	"id": "throwing_knife_heavy",
-	"category": "weapons",
-	"price": 7500,
-	"name": "heavy throwing knife",
-	"name_plural": "heavy throwing knives",
-	"symbol": ";",
-	"color": "light_gray",
-	"description": "A more sturdy version of the simple throwing knife. The extra mass, sharpened point and balanced center of mass make for an excellent throwing utensil that should pack quite the punch.",
-	"material": "steel",
-	"volume": 1,
-	"weight": 550,
-	"bashing": 3,
-	"cutting": 12,
-	"thrown_damage": [
-		{"damage_type": "cut", "amount": 22 },
-		{"damage_type": "bash", "amount": 7 }
-	],
-	"ammo_type": "thrown",
-	"count": 5
+    "type": "AMMO",
+    "id": "throwing_knife_heavy",
+    "category": "weapons",
+    "price": 7500,
+    "name": "heavy throwing knife",
+    "name_plural": "heavy throwing knives",
+    "symbol": ";",
+    "color": "light_gray",
+    "description": "A more sturdy version of the simple throwing knife. The extra mass, sharpened point and balanced center of mass make for an excellent throwing utensil that should pack quite the punch.",
+    "material": "steel",
+    "volume": 2,
+    "weight": 550,
+    "bashing": 3,
+    "cutting": 12,
+    "thrown_damage": [
+        {"damage_type": "cut", "amount": 22 },
+        {"damage_type": "bash", "amount": 7 }
+    ],
+    "ammo_type": "thrown",
+    "count": 4
   },
   {
-	"type": "AMMO",
-	"id": "throwing_axe_heavy",
-	"category": "weapons",
-	"price": 15900,
-	"name": "heavy throwing axe",
-	"symbol": ";",
-	"color": "light_gray",
-	"description": "A somewhat heavy axe resembling a tomahawk. while the edges' form will not serve for any heavy-duty cutting work, the heavy and finely sharpened blade ought to cut quite deep.",
-	"material": ["steel", "wood"],
-	"volume": 3,
-	"weight": 1250,
-	"bashing": 6,
-	"cutting": 16,
-	"thrown_damage": [
-		{ "damage_type": "bash", "amount": 10 },
-		{ "damage_type": "cut", "amount": 28 }
-	],
-	"ammo_type": "thrown",
-	"count": 3
+    "type": "AMMO",
+    "id": "throwing_axe_heavy",
+    "category": "weapons",
+    "price": 15900,
+    "name": "heavy throwing axe",
+    "symbol": ";",
+    "color": "light_gray",
+    "description": "A somewhat heavy axe resembling a tomahawk. while the edges' form will not serve for any heavy-duty cutting work, the heavy and finely sharpened blade ought to cut quite deep.",
+    "material": ["steel", "wood"],
+    "volume": 4,
+    "weight": 1250,
+    "bashing": 6,
+    "cutting": 16,
+    "thrown_damage": [
+        { "damage_type": "bash", "amount": 18 },
+        { "damage_type": "cut", "amount": 16 }
+    ],
+    "ammo_type": "thrown",
+    "count": 3
   },
   {
-	"type": "AMMO",
-	"id": "shuriken",
-	"category": "weapons",
-	"price": 8900,
-	"name": "shuriken",
-	"symbol": "*",
-	"color": "light_gray",
-	"description": "lightweight throwing stars originating from Japan. While deadly in skilled hands, the shape and missing weight make for a difficult throw.",
-	"material": "steel",
-	"volume": 1,
-	"weight": 200,
-	"cutting": 8,
-	"thrown_damage": [
-		{"damage_type": "cut", "amount": 22}
-		],
-	"ammo_type": "thrown",
-	"count": 10
+    "type": "AMMO",
+    "id": "shuriken",
+    "category": "weapons",
+    "price": 8900,
+    "name": "shuriken",
+    "symbol": "*",
+    "color": "light_gray",
+    "description": "lightweight throwing stars originating from Japan. While deadly in skilled hands, the shape and missing weight make for a difficult throw.",
+    "material": "steel",
+    "volume": 1,
+    "weight": 200,
+    "cutting": 8,
+    "thrown_damage": [
+        {"damage_type": "cut", "amount": 22}
+        ],
+    "ammo_type": "thrown",
+    "count": 10
   },
   {
-	"type": "AMMO",
-	"id": "steel_dart",
-	"category": "weapons",
-	"price": 10000,
-	"name": "steel dart",
-	"name_plural": "steel darts",
-	"material": "steel",
-	"symbol": ";",
-	"color": "light_gray",
-	"description": "A common dart used for playing darts in bars and the likes. The notable exception is that the entire core as well as the point have been made out of steel, giving it extra weight and powerful penetration force.",
-	"volume": 1,
-	"weight": 350,
-	"to_hit": -1,
-	"cutting": 12,
-	"thrown_damage": [
-		{"damage_type": "stab", "amount": 25}
-	],
-	"ammo_type": "thrown",
-	"count": 3
+    "type": "AMMO",
+    "id": "steel_dart",
+    "category": "weapons",
+    "price": 10000,
+    "name": "steel dart",
+    "name_plural": "steel darts",
+    "material": "steel",
+    "symbol": ";",
+    "color": "light_gray",
+    "description": "A common dart used for playing darts in bars and the likes. The notable exception is that the entire core as well as the point have been made out of steel, giving it extra weight and powerful penetration force.",
+    "volume": 2,
+    "weight": 350,
+    "to_hit": -1,
+    "cutting": 12,
+    "thrown_damage": [
+        {"damage_type": "bash", "amount": 2},
+        {"damage_type": "stab", "amount": 23}
+    ],
+    "ammo_type": "thrown",
+    "count": 3
   }
 ]
