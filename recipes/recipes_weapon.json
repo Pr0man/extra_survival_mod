@@ -7,7 +7,7 @@
 	"skill_used": "fabrication",
 	"skills_required": ["throw", 2],
 	"difficulty": 6,
-	"time": 270000,
+	"time": 240000,
 	"autolearn": true,
 	"using": [
 		[ "forging_standard", 10 ],
@@ -93,7 +93,7 @@
 	"skill_used": "fabrication",
 	"skills_required": ["throw", 3],
 	"difficulty": 6,
-	"time": 60000,
+	"time": 360000,
 	"autolearn": true,
 	"using": [ 
 		[ "forging_standard", 10 ],
