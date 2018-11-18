@@ -5,7 +5,7 @@
 	"category": "CC_WEAPON",
 	"subcategory": "CSC_WEAPON_RANGED",
 	"skill_used": "fabrication",
-	"skills_required": ["throwing", 2],
+	"skills_required": ["throw", 2],
 	"difficulty": 6,
 	"time": 270000,
 	"autolearn": true,
@@ -32,15 +32,10 @@
 	"category": "CC_WEAPON",
 	"subcategory": "CSC_WEAPON_RANGED",
 	"skill_used": "fabrication",
-	"skills_required": ["throwing", 2],
+	"skills_required": ["throw", 2],
 	"difficulty": 6,
 	"time": 200000,
 	"autolearn": true,
-	"using": [ 
-		[ "forging_standard", 10 ],
-		[ "steel_tiny", 2 ],
-		[ ["2x4",1],["stick", 2] ]
-	],
 	"qualities": [
 		{"id": "ANVIL", "level": 3 },
 		{"id": "HAMMER", "level": 3},
@@ -52,7 +47,12 @@
 	[ [ "tongs", -1 ] ],
 	[ [ "swage", -1 ] ],
 	[ [ "crucible", -1 ],
-	[ "crucible_clay", -1 ] ]
+	[ "crucible_clay", -1 ] ],
+	[ [ "forge", 250], ["oxy_torch", 10] ]
+	],
+	"components": [
+	[ [ "steel_chunk", 3], [ "scrap", 6] ],
+	[ [ "2x4", 1] ]
 	]
 },
 {
@@ -61,16 +61,10 @@
 	"category": "CC_WEAPON",
 	"subcategory": "CSC_WEAPON_RANGED",
 	"skill_used": "fabrication",
-	"skills_required": ["throwing", 3],
+	"skills_required": ["throw", 3],
 	"difficulty": 6,
 	"time": 75000,
 	"autolearn": true,
-	"using": [ 
-		[ "forging_standard", 10 ],
-		[ "steel_tiny", 1 ],
-		[ "filament", 50 ],
-		[ "fletching", 1, "LIST" ]
-	],
 	"qualities": [
 		{"id": "ANVIL", "level": 3 },
 		{"id": "HAMMER", "level": 3},
@@ -82,7 +76,13 @@
 	[ [ "tongs", -1 ] ],
 	[ [ "swage", -1 ] ],
 	[ [ "crucible", -1 ],
-	[ "crucible_clay", -1 ] ]
+	[ "crucible_clay", -1 ] ],
+	[ [ "forge", 100], ["oxy_torch", 5] ]
+	],
+	"components": [
+	[ [ "steel_chunk", 3 ], [ "scrap", 6] ],
+	[ [ "filament", 50, "LIST"] ],
+	[ [ "fletching", 1, "LIST"] ]
 	]
 },
 {
@@ -91,7 +91,7 @@
 	"category": "CC_WEAPON",
 	"subcategory": "CSC_WEAPON_RANGED",
 	"skill_used": "fabrication",
-	"skills_required": ["throwing", 3],
+	"skills_required": ["throw", 3],
 	"difficulty": 6,
 	"time": 60000,
 	"autolearn": true,

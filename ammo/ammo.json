@@ -54,10 +54,10 @@
 	"cutting": 12,
 	"thrown_damage": [
 		{"damage_type": "cut", "amount": 22 },
-		{"damage_type": "bash", "amount": 7 },
+		{"damage_type": "bash", "amount": 7 }
 	],
 	"ammo_type": "thrown",
-	"count", 5
+	"count": 5
   },
   {
 	"type": "AMMO",
@@ -67,7 +67,7 @@
 	"name": "heavy throwing axe",
 	"symbol": ";",
 	"color": "light_gray",
-	"description": "A somewhat heavier axe resembling a tomahawk. while the edges' form will not serve any cutting purposes, the heavy and finely sharpened blade ought to cut quite deep.",
+	"description": "A somewhat heavy axe resembling a tomahawk. while the edges' form will not serve for any heavy-duty cutting work, the heavy and finely sharpened blade ought to cut quite deep.",
 	"material": ["steel", "wood"],
 	"volume": 3,
 	"weight": 1250,
@@ -97,7 +97,7 @@
 		{"damage_type": "cut", "amount": 22}
 		],
 	"ammo_type": "thrown",
-	"count": 10,
+	"count": 10
   },
   {
 	"type": "AMMO",
@@ -106,9 +106,10 @@
 	"price": 10000,
 	"name": "steel dart",
 	"name_plural": "steel darts",
+	"material": "steel",
 	"symbol": ";",
 	"color": "light_gray",
-	"description": "A common dart used for playing darts in a bar or similar. The notable exception is that the entire core as well as the point have been made out of steel, giving it extra weight and a powerful penetration force.",
+	"description": "A common dart used for playing darts in bars and the likes. The notable exception is that the entire core as well as the point have been made out of steel, giving it extra weight and powerful penetration force.",
 	"volume": 1,
 	"weight": 350,
 	"to_hit": -1,
