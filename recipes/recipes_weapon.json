@@ -1,0 +1,116 @@
+[
+{
+	"type": "recipe",
+	"result": "throwing_knife_heavy",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_RANGED",
+	"skill_used": "fabrication",
+	"skills_required": ["throwing", 2],
+	"difficulty": 6,
+	"time": 270000,
+	"autolearn": true,
+	"using": [
+		[ "forging_standard", 10 ],
+		[ "steel_tiny", 2 ]
+	],
+	"qualities": [
+		{"id": "ANVIL", "level": 3 },
+		{"id": "HAMMER", "level": 3},
+		{"id": "CHISEL", "level": 3},
+		{"id": "SHARP", "level":1}
+	],
+	"tools": [
+	[ [ "tongs", -1 ] ],
+	[ [ "swage", -1 ] ],
+	[ [ "crucible", -1 ],
+	[ "crucible_clay", -1 ] ] 
+	]
+},
+{
+	"type": "recipe",
+	"result": "throwing_axe_heavy",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_RANGED",
+	"skill_used": "fabrication",
+	"skills_required": ["throwing", 2],
+	"difficulty": 6,
+	"time": 200000,
+	"autolearn": true,
+	"using": [ 
+		[ "forging_standard", 10 ],
+		[ "steel_tiny", 2 ],
+		[ ["2x4",1],["stick", 2] ]
+	],
+	"qualities": [
+		{"id": "ANVIL", "level": 3 },
+		{"id": "HAMMER", "level": 3},
+		{"id": "CHISEL", "level": 3},
+		{"id": "CUT", "level": 1},
+		{"id": "SHARP", "level":1}
+	],
+	"tools": [
+	[ [ "tongs", -1 ] ],
+	[ [ "swage", -1 ] ],
+	[ [ "crucible", -1 ],
+	[ "crucible_clay", -1 ] ]
+	]
+},
+{
+	"type": "recipe",
+	"result": "steel_dart",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_RANGED",
+	"skill_used": "fabrication",
+	"skills_required": ["throwing", 3],
+	"difficulty": 6,
+	"time": 75000,
+	"autolearn": true,
+	"using": [ 
+		[ "forging_standard", 10 ],
+		[ "steel_tiny", 1 ],
+		[ "filament", 50 ],
+		[ "fletching", 1, "LIST" ]
+	],
+	"qualities": [
+		{"id": "ANVIL", "level": 3 },
+		{"id": "HAMMER", "level": 3},
+		{"id": "CHISEL", "level": 3},
+		{"id": "CUT", "level": 1},
+		{"id": "SHARP", "level":1}
+	],
+	"tools": [
+	[ [ "tongs", -1 ] ],
+	[ [ "swage", -1 ] ],
+	[ [ "crucible", -1 ],
+	[ "crucible_clay", -1 ] ]
+	]
+},
+{
+	"type": "recipe",
+	"result": "shuriken",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_RANGED",
+	"skill_used": "fabrication",
+	"skills_required": ["throwing", 3],
+	"difficulty": 6,
+	"time": 60000,
+	"autolearn": true,
+	"using": [ 
+		[ "forging_standard", 10 ],
+		[ "steel_tiny", 1 ]
+	],
+	"qualities": [
+		{"id": "ANVIL", "level": 3 },
+		{"id": "HAMMER", "level": 3},
+		{"id": "CHISEL", "level": 3},
+		{"id": "CUT", "level": 1},
+		{"id": "SHARP", "level":1}
+	],
+	"tools": [
+	[ [ "tongs", -1 ] ],
+	[ [ "swage", -1 ] ],
+	[ [ "crucible", -1 ],
+	[ "crucible_clay", -1 ] ]
+	]
+}
+]
