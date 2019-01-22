@@ -54,4 +54,32 @@
 						]
 				}
 	}
+	{
+		"type" : "profession",
+		"ident": "survivor_book",
+		"name" : "Uninformed Survivalist",
+		"description": "You thought that the world might be ending soon, so you decided to buy yourself a comprehensive survival guide and called it a day. Now the cataclysm struck and you are left wondering if you should've a."
+		"points": 3,
+		"items": {
+				"both": [
+						"knit_scarf",
+						"undershirt",
+						"jacket_light",
+						"gloves_light",
+						"pants_cargo",
+						"fanny",
+						"socks",
+						"sneakers",
+						"hat_cotton",
+						"pockknife",
+						"textbook_survival"
+						],
+				"male": [
+						"boxer_shorts"
+						],
+				"female":[
+						"bra",
+						"panties"
+						]
+	}
 ]

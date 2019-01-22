@@ -3,7 +3,7 @@
 		"type": "scenario",
 		"ident": "wilderness",
 		"copy-from": "wilderness",
-		"extend": { "professions": ["survivor_bio", "broken_cyborg"] }
+		"extend": { "professions": ["survivor_bio", "survivor_book", "broken_cyborg"] }
 	},
 	{
 		"type": "scenario",

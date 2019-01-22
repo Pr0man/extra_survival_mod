@@ -10,7 +10,7 @@
   },
   {
     "type": "uncraft",
-	"result": "wood_plate",
+	"result": "wood_plate_armor",
 	"skill_used": "fabrication",
 	"difficulty": 1,
 	"time": 2500,

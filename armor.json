@@ -56,7 +56,7 @@
     "flags": [ "OVERSIZE", "HOOD", "OUTER" ]
   },
   {
-	"id": "wood_plate",
+	"id": "wood_plate_armor",
 	"type": "ARMOR",
 	"name": "wood plate",
 	"description": "Crude body armor made out of planks, held together by tied-up strings. Fragile, bulky as hell but atleast it protects your fleshy bits.",
@@ -80,7 +80,7 @@
 	"id": "birch_pack",
 	"type": "ARMOR",
 	"name": "birch bark basket",
-	"description": "A simple basket, strung from fiber-intertwined birch bark around a simple frame. Cannot hold much and is quite encumbering, but better than not having any place to put things.",
+	"description": "A simple basket, strung from fiber-intertwined birch bark around a simple frame. Cannot hold much, feels wobbly and is quite encumbering, but better than not having any place to put things.",
 	"weight": 3000,
 	"volume": 10,
 	"price": 0,
@@ -90,7 +90,7 @@
 	"material": [ "wood", "veggy" ],
     "covers": [ "TORSO" ],
     "coverage": 30,
-    "encumbrance": 15,
+    "encumbrance": 20,
     "storage": 15,
     "warmth": 5,
     "material_thickness": 1,

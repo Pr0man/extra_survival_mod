@@ -19,7 +19,7 @@
 		"pierce": 5,
 		"sight_dispersion": 200,
 		"durability": 10,
-		"reload": 250,
+		"reload": 1000,
 		"clip_size": 1,
 		"flags": [ "NEVER_JAMS", "MOUNTED_GUN", "BELT_CLIP" ]
 	}
