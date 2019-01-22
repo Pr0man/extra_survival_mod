@@ -58,7 +58,7 @@
 		"type" : "profession",
 		"ident": "survivor_book",
 		"name" : "Uninformed Survivalist",
-		"description": "You thought that the world might be ending soon, so you decided to buy yourself a comprehensive survival guide and called it a day. Now the cataclysm struck and you are left wondering if you should've a."
+		"description": "You thought that the world might be ending soon, so you decided to buy yourself a comprehensive survival guide and called it a day. Now the cataclysm struck and you are left wondering if you should have at least read that thing.",
 		"points": 3,
 		"items": {
 				"both": [
@@ -81,5 +81,6 @@
 						"bra",
 						"panties"
 						]
+	}
 	}
 ]
