@@ -1,5 +1,11 @@
 [
-	{
+	  {
+		"type": "item_group",
+		"subtype": "collection",
+		"id": "mags_22lr",
+		"entries": [ { "item": "mosquitomag", "ammo-item": "22_fmj", "charges": 10 }, { "item": "mosquitomag", "ammo-item": "22_fmj", "charges": 10 }, { "item": "mosquitomag", "ammo-item": "22_fmj", "charges": 10 }, { "item": "mosquitomag", "ammo-item": "22_fmj", "charges": 10 }]
+		},
+		{
 		"type" : "profession",
 		"ident": "survivor_bio",
 		"name" : "Bionic Survivalist",
@@ -74,6 +80,53 @@
 						"pockknife",
 						"textbook_survival"
 						],
+				"male": [
+						"boxer_shorts"
+						],
+				"female":[
+						"bra",
+						"panties"
+						]
+	}
+	},
+	{	
+		"type" : "profession",
+		"ident": "gun_freak",
+		"name" : "Gun Nut",
+		"description": "You just loved firearms all your life. Not only do you remember all them different calibers, but you even managed to save some money for a small firearm and some manuals surrounding it. Unfortunately, the cataclysm struk before you had any time practicing your new toys.",
+		"points": 5,
+		"skills": [
+					{
+						"level": 2,
+						"name": "cooking"
+					},
+					{
+						"level": 1,
+						"name": "pistol"
+					},
+					{
+						"level": 1,
+						"name": "gun"
+					}
+				  ],
+		"items": {
+				"both": {
+				"items":[
+						"tshirt",
+						"hoodie",
+						"pants_cargo",
+						"socks",
+						"sneakers",
+						"pockknife",
+						"recipe_bullets"
+						],
+				        "entries": [
+						  { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+						  { "item": "sig_mosquito", "ammo-item": "22_fmj", "charges": 10, "container-item": "holster" },
+						  { "item": "22_fmj", "charges": 50 },
+						  { "item": "chestrig", "contents-group" : "mags_22lr"}
+						]
+						},
 				"male": [
 						"boxer_shorts"
 						],
