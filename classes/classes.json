@@ -93,8 +93,8 @@
 		"type" : "profession",
 		"ident": "gun_freak",
 		"name" : "Gun Nut",
-		"description": "You just loved firearms all your life. Not only do you remember all them different calibers, but you even managed to save some money for a small firearm and some manuals surrounding it. Unfortunately, the cataclysm struk before you had any time practicing your new toys.",
-		"points": 5,
+		"description": "You just loved firearms all your life. Not only do you remember all them different calibers and weapons from magazines, but you even managed to save some money for a small firearm and some manuals surrounding it. Unfortunately, the cataclysm struk before you had any time practicing your new toys.",
+		"points": 4,
 		"skills": [
 					{
 						"level": 2,
@@ -122,7 +122,7 @@
 						],
 				        "entries": [
 						  { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
-						  { "item": "sig_mosquito", "ammo-item": "22_fmj", "charges": 10, "container-item": "holster" },
+						  { "item": "sig_mosquito", "ammo-item": "22_fmj", "charges": 10, "container-item": "bootstrap" },
 						  { "item": "22_fmj", "charges": 50 },
 						  { "item": "chestrig", "contents-group" : "mags_22lr"}
 						]

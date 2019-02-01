@@ -4,5 +4,11 @@
 		"name": "balls",
 		"default": "ball_stone",
 		"type": "ammunition_type"
+	},
+	{
+	    "id": "cotton_charge",
+		"name": "guncotton charge",
+		"default": "guncotton_charge_standard",
+		"type": "ammunition_type"
 	}
 ]

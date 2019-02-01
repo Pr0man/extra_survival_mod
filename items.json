@@ -48,5 +48,21 @@
 	"material": [ "wood" ],
 	"diameter": 17,
 	"width": 4
+  },
+  {
+    "type":"AMMO",
+	"id": "guncotton_material",
+	"name": "guncotton",
+	"name_plural": "guncotton",
+	"category": "chems",
+	"ammo_type": "components",
+	"color": "white",
+	"symbol": "=",
+	"weight": 150,
+	"volume": 2,
+	"price": 200,
+	"description": "Small pieces of cut up cotton - dried after soaking in sulfuric and nitric acid substitutes - named nitrocellulose, also known as guncotton. Highly reactive and thus prone to detonation. Has great propelling properties rivaling that of black powder when ignited and not impacted.",
+	"count": 150,
+	"effects": [ "COOKOFF" ]
   }
 ]

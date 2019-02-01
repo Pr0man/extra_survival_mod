@@ -5,29 +5,83 @@
 	  "id_suffix": "crude",
 	  "category": "CC_AMMO",
 	  "subcategory": "CSC_AMMO_COMPONENTS",
-	  "skill_used": "cooking",
-	  "skills_required": [ "survival", 3 ],
-	  "difficulty": 5,
+	  "skill_used": "survival",
+	  "skills_required": [ [ "cooking", 3 ] ],
+	  "difficulty": 3,
 	  "time": 60000,
-	  "autolearn": true,
+	  "book_learn": [ ["pocket_survival", 3], ["survival_book", 3], ["textbook_survival", 3]],
 	  "qualities":[
-		{"id":"CHEM","level":2}
-	  ], "tools": [
-		[
-		  [ "hotplate", 50 ],
-		  [ "toolset", 50 ]
-		]
+		{"id":"CHEM","level":1},
+		{"id":"COOK","level":3}
+	  ],
+	  "tools": [
+		[ [ "surface_heat", 10, "LIST" ] ],
+		[ ["mortar_pestle", -1 ] ],
+		[ [ "rag", -1] ]
 	  ],
 	  "components": [
 		[
-		  [ "oxy_powder", 400 ]
+		  [ "chem_saltpetre", 100 ]
 		],
 		[
-		  [ "ammonia", 4 ],
-		  [ "lye_powder", 400 ]
+			[ "lye", 2 ],
+			[ "gin", 4 ],
+			[ "rum", 4 ],
+			[ "single_malt_whiskey", 4 ],
+			[ "tequila", 4 ],
+			[ "triple_sec", 4 ],
+			[ "vodka", 4 ],
+			[ "whiskey", 4 ],
+			[ "brandy", 4 ]
 		],
 		[
-		  [ "charcoal", 50 ]
+		  [ "charcoal", 20 ]
+		]
+	  ]
+	},
+	{
+	  "type" : "recipe",
+	  "result": "guncotton_material",
+	  "category": "CC_CHEM",
+	  "subcategory": "CC_CHEM_OTHER",
+	  "skill_used": "survival",
+	  "skills_required": [ ["cooking", 2] ],
+	  "difficulty": 3,
+	  "time" : 30000,
+	  "book_learn": [ ["pocket_survival", 3], ["survival_book", 3], ["textbook_survival", 3]],
+	  "qualities":[
+	  {"id":"CHEM","level":1},
+	  {"id":"COOK","level":2},
+	  {"id":"CUT","level":1}
+	  ],
+	  "tools": [
+		[ [ "surface_heat", 10, "LIST" ] ],
+		[ [ "mortar_pestle", -1 ] ]
+	  ],
+	  "components": [
+		[
+		  [ "chem_saltpetre", 50 ]
+		],
+		[
+			[ "lye_powder", 50],
+			[ "lye", 2 ],
+			[ "gin", 4 ],
+			[ "rum", 4 ],
+			[ "single_malt_whiskey", 4 ],
+			[ "tequila", 4 ],
+			[ "triple_sec", 4 ],
+			[ "vodka", 4 ],
+			[ "whiskey", 4 ],
+			[ "brandy", 4 ]
+		],
+		[
+		  [ "charcoal", 20 ]
+		],
+		[
+		  [ "rag", 15 ]
+		],
+		[
+		  [ "water_clean", 10], [ "water", 10 ]
 		]
 	  ]
 	}
