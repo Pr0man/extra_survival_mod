@@ -62,11 +62,7 @@
 	"volume": 2,
 	"price": 200,
 	"description": "Small pieces of cut up cotton - dried after soaking in sulfuric and nitric acid substitutes - named nitrocellulose, also known as guncotton. Highly reactive and thus prone to detonation. Has great propelling properties rivaling that of black powder when ignited and not impacted.",
-<<<<<<< HEAD
 	"count": 100,
-=======
-	"count": 150,
->>>>>>> a3445fd85c1f79c2a29e7af2bf91051a196d7aba
 	"effects": [ "COOKOFF" ]
   }
 ]

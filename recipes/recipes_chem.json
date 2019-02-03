@@ -21,7 +21,6 @@
 	  ],
 	  "components": [
 		[
-<<<<<<< HEAD
 		  [ "chem_saltpetre", 50 ]
 		],
 		[
@@ -38,30 +37,11 @@
 			[ "sugar", 50 ]
 		],
 		[
-		  [ "charcoal", 25 ]
-=======
-		  [ "chem_saltpetre", 100 ]
-		],
-		[
-			[ "lye", 2 ],
-			[ "gin", 4 ],
-			[ "rum", 4 ],
-			[ "single_malt_whiskey", 4 ],
-			[ "tequila", 4 ],
-			[ "triple_sec", 4 ],
-			[ "vodka", 4 ],
-			[ "whiskey", 4 ],
-			[ "brandy", 4 ]
-		],
-		[
-		  [ "charcoal", 20 ]
->>>>>>> a3445fd85c1f79c2a29e7af2bf91051a196d7aba
+		  [ "charcoal", 50 ]
 		]
-	  ]
 	},
 	{
 	  "type" : "recipe",
-<<<<<<< HEAD
 	  "result": "guncotton_material",
 	  "category": "CC_CHEM",
 	  "subcategory": "CC_CHEM_OTHER",
@@ -81,7 +61,7 @@
 	  ],
 	  "components": [
 		[
-		  [ "chem_saltpetre", 50 ]
+		  [ "chem_saltpetre", 100 ]
 		],
 		[
 			[ "lye_powder", 50],
@@ -94,81 +74,9 @@
 			[ "vodka", 4 ],
 			[ "whiskey", 4 ],
 			[ "brandy", 4 ]
-=======
-	  "result": "chem_black_powder",
-	  "id_suffix": "crude_sugar",
-	  "category": "CC_AMMO",
-	  "subcategory": "CSC_AMMO_COMPONENTS",
-	  "skill_used": "survival",
-	  "skills_required": [ [ "cooking", 3 ] ],
-	  "difficulty": 3,
-	  "time": 60000,
-	  "book_learn": [ ["pocket_survival", 3], ["survival_book", 3], ["textbook_survival", 3]],
-	  "qualities":[
-		{"id":"CHEM","level":1},
-		{"id":"COOK","level":3}
-	  ],
-	  "tools": [
-		[ [ "surface_heat", 10, "LIST" ] ],
-		[ ["mortar_pestle", -1 ] ],
-		[ [ "rag", -1] ]
-	  ],
-	  "components": [
-		[
-		  [ "chem_saltpetre", 100 ]
-		],
-		[
-		  [ "sugar", 20 ]
->>>>>>> a3445fd85c1f79c2a29e7af2bf91051a196d7aba
 		],
 		[
 		  [ "charcoal", 50 ]
-		],
-		[
-		  [ "rag", 15 ]
-		],
-		[
-		  [ "water_clean", 10], [ "water", 10 ]
-		]
-	  ]
-	},
-	{
-	  "type" : "recipe",
-	  "result": "guncotton_material",
-	  "category": "CC_CHEM",
-	  "subcategory": "CC_CHEM_OTHER",
-	  "skill_used": "survival",
-	  "skills_required": [ ["cooking", 2] ],
-	  "difficulty": 3,
-	  "time" : 30000,
-	  "book_learn": [ ["pocket_survival", 3], ["survival_book", 3], ["textbook_survival", 3]],
-	  "qualities":[
-	  {"id":"CHEM","level":1},
-	  {"id":"COOK","level":2},
-	  {"id":"CUT","level":1}
-	  ],
-	  "tools": [
-		[ [ "surface_heat", 10, "LIST" ] ],
-		[ [ "mortar_pestle", -1 ] ]
-	  ],
-	  "components": [
-		[
-		  [ "chem_saltpetre", 50 ]
-		],
-		[
-			[ "lye_powder", 50],
-			[ "lye", 2 ],
-			[ "gin", 4 ],
-			[ "rum", 4 ],
-			[ "single_malt_whiskey", 4 ],
-			[ "tequila", 4 ],
-			[ "triple_sec", 4 ],
-			[ "vodka", 4 ],
-			[ "whiskey", 4 ],
-			[ "brandy", 4 ]
-		],
-		[
-		  [ "charcoal", 20 ]
 		],
 		[
 		  [ "rag", 15 ]
