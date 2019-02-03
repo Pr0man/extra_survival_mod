@@ -140,8 +140,8 @@
 	"range" : 25,
 	"damage" : 55,
 	"pierce": 5,
-	"recoil": 2000,
-	"loudness": 100,
+	"recoil": 4000,
+	"loudness": 120,
     "effects": [ "COOKOFF", "MUZZLE_SMOKE" ]
   },
   {
@@ -160,10 +160,10 @@
 	"count": 15,
 	"stack_size": 50,
 	"range" : 5,
-	"dispersion": 40,
-	"damage" : 50,
-	"recoil": 2500,
-	"loudness": 125,
+	"dispersion": 150,
+	"damage" : 35,
+	"recoil": 5000,
+	"loudness": 155,
     "effects": [ "COOKOFF", "MUZZLE_SMOKE", "SHOT" ]
   }
 ]
