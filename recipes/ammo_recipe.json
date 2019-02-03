@@ -32,5 +32,59 @@
 	"components": [
 	  [  [ "steel_lump", 1], [ "steel_chunk", 4], [ "scrap", 12] ]
 	]
+},
+{
+	"type": "recipe",
+	"result": "guncotton_charge_standard",
+	"category" : "CC_AMMO",
+	"subcategory" : "CSC_AMMO_RIFLE",
+	"skill_used": "fabrication",
+	"skills_needed": [ [ "survival", 2], [ "gun", 1] ],
+<<<<<<< HEAD
+=======
+	"autolearn": true,
+>>>>>>> a3445fd85c1f79c2a29e7af2bf91051a196d7aba
+	"difficulty": 3,
+	"time": 10000,
+	"batch_time_factors": [65, 5],
+	"book_learn": [ ["pocket_survival", 3], ["survival_book", 3], ["textbook_survival", 3]],
+	"qualities": [ { "id": "CUT", "level": 1} ],
+	"using": [ [ "ammo_bullet", 15 ] ],
+	"components": [
+<<<<<<< HEAD
+	  [ [ "guncotton_material", 30 ] ],
+=======
+	  [ [ "guncotton_material", 15 ] ],
+>>>>>>> a3445fd85c1f79c2a29e7af2bf91051a196d7aba
+	  [ ["paper", 15 ] ]
+	]
+},
+{
+	"type": "recipe",
+	"result": "guncotton_charge_shot",
+	"category" : "CC_AMMO",
+	"subcategory" : "CSC_AMMO_RIFLE",
+	"skill_used": "fabrication",
+	"skills_needed": [ [ "survival", 2], [ "gun", 1] ],
+<<<<<<< HEAD
+=======
+	"autolearn": true,
+>>>>>>> a3445fd85c1f79c2a29e7af2bf91051a196d7aba
+	"difficulty": 3,
+	"time": 10000,
+	"batch_time_factors": [65, 5],
+	"book_learn": [ ["pocket_survival", 3], ["survival_book", 3], ["textbook_survival", 3]],
+	"qualities": [ { "id": "CUT", "level": 1} ],
+<<<<<<< HEAD
+	"components": [
+	  [ [ "scrap", 30], [ "nail", 30 ], [ "gold_small", 30], ["silver_small", 30],["platinum_small", 30], ["bismuth", 30 ], ["lead", 30] ],
+	  [ [ "guncotton_material", 30 ] ],
+=======
+	"using": [ [ "ammo_bullet", 30 ] ],
+	"components": [
+	  [ [ "guncotton_material", 15 ] ],
+>>>>>>> a3445fd85c1f79c2a29e7af2bf91051a196d7aba
+	  [ ["paper", 15 ] ]
+	]
 }
 ]
