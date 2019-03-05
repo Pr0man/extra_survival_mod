@@ -56,7 +56,7 @@
     "flags": [ "OVERSIZE", "HOOD", "OUTER" ]
   },
   {
-	"id": "wood_plate_armor",
+	"id": "wood_plate_bodyarmor",
 	"type": "ARMOR",
 	"name": "wood plate",
 	"description": "Crude body armor made out of planks, held together by tied-up strings. Fragile, bulky as hell but atleast it protects your fleshy bits.",

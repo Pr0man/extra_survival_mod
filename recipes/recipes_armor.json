@@ -55,7 +55,7 @@
   },
   {
 	"type": "recipe",
-	"result": "wood_plate",
+	"result": "wood_plate_bodyarmor",
 	"category": "CC_ARMOR",
 	"subcategory": "CSC_ARMOR_TORSO",
 	"skill_used": "fabrication",

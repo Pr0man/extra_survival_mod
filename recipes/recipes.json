@@ -10,7 +10,7 @@
   },
   {
     "type": "uncraft",
-	"result": "wood_plate_armor",
+	"result": "wood_plate_bodyarmor",
 	"skill_used": "fabrication",
 	"difficulty": 1,
 	"time": 2500,
@@ -117,28 +117,6 @@
 	  [  [ "scrap", 9], [ "steel_chunk", 3], ["steel_lump", 1] ],
 	  [  [ "adhesive", 1, "LIST"] ] 
 				] 
-  },
-  {
-    "type": "recipe",
-    "result": "sling_mounted",
-	"category": "CC_WEAPON",
-	"subcategory": "CSC_WEAPON_RANGED",
-	"skill_used": "fabrication",
-	"skills_required": [ "throw", 2 ],
-	"difficulty": 3,
-	"time": 30000,
-	"autolearn": true,
-	"qualities": [
-	  {"id": "CUT", "level": 1 },
-	  {"id": "HAMMER", "level": 2 },
-	  {"id": "SAW_W", "level": 1 }
-				 ],
-	"components": [
-	  [  [ "stick", 12], [ "2x4", 6], [ "stick_long", 6] ],
-	  [  [ "string_36", 2], [ "filament", 600, "LIST"], [ "withered", 24 ] ],
-	  [  [ "leather", 4 ], [ "tanned_hide", 1] , [ "tanned_pelt", 1 ] ],
-	  [  [ "adhesive", 2, "LIST"] ]
-	  ]
   },
   {
 	"type": "recipe",
