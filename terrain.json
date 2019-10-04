@@ -6,6 +6,7 @@
 		"description" : "Deep well collecting ground water. The bucket attached to the rope allows to manually draw water.",
 		"symbol" : "%",
 		"color" : "light_blue",
+		"looks-like" : "t_covered_well",
 		"move_cost": 6,
 		"flags": ["TRANPARENT", "THIN_OBSTACLE"],
 		"deconstruct": {
@@ -64,6 +65,7 @@
 		"description": "Some form of underbrush that has died off. Nothing but a few soft branches remain",
         "symbol": "#",
         "color": "brown",
+		"looks-like": "t_shrub",
         "move_cost": 4,
         "flags": [
             "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM",
@@ -86,11 +88,12 @@
     },
 	{
 		"type" : "terrain",
-		"id" : "t_oat",
+		"id" : "t_oat_wild",
 		"name" : "wild oats",
 		"description": "Wild oats, known for being a resilient roadside flower that grows anywhere. More akin to weeds than actual oat plants, but still nutritious.",
 		"symbol" : ",",
 		"color": "brown",
+		"looks-like": "oats",
 		"move_cost": 4,
 		"flags": [
             "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM",
@@ -113,11 +116,12 @@
 	},
 	{
 		"type" : "terrain",
-		"id" : "t_wheat",
+		"id" : "t_wheat_wild",
 		"name" : "wild wheat",
 		"description": "Wild wheats, one of the less common growing grains. It's ears are smaller than the ones of domesticated wheat, but it should still provide grain.",
 		"symbol" : ",",
 		"color": "brown",
+		"looks-like": "wheat",
 		"move_cost": 4,
 		"flags": [
             "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM",
@@ -140,11 +144,12 @@
 	},
 	{
 		"type" : "terrain",
-		"id" : "t_cotton",
+		"id" : "t_cotton_wild",
 		"name" : "wild cotton",
 		"description": "A wild cotton bush. How that managed to grow and survive out here seems to be a mystery, yet not an unwelcome one.",
 		"symbol" : ",",
 		"color": "white",
+		"looks-like": "cotton_boll",
 		"move_cost": 4,
 		"flags": [
             "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM",
@@ -167,11 +172,12 @@
 	},
 	{
 		"type" : "terrain",
-		"id" : "t_corn",
+		"id" : "t_corn_wild",
 		"name" : "wild corn",
 		"description": "A nice tall corn plant, growing out in the wild. The cob of corn is overall a bit smaller than what you remember, but it's probably edible.",
 		"symbol" : ",",
 		"color": "yellow",
+		"looks-like": "corn",
 		"move_cost": 4,
 		"flags": [
             "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM",

@@ -84,33 +84,5 @@
 	[ [ "filament", 50, "LIST"] ],
 	[ [ "fletching", 1, "LIST"] ]
 	]
-},
-{
-	"type": "recipe",
-	"result": "shuriken",
-	"category": "CC_WEAPON",
-	"subcategory": "CSC_WEAPON_RANGED",
-	"skill_used": "fabrication",
-	"skills_required": ["throw", 3],
-	"difficulty": 6,
-	"time": 360000,
-	"autolearn": true,
-	"using": [ 
-		[ "forging_standard", 10 ],
-		[ "steel_tiny", 1 ]
-	],
-	"qualities": [
-		{"id": "ANVIL", "level": 3 },
-		{"id": "HAMMER", "level": 3},
-		{"id": "CHISEL", "level": 3},
-		{"id": "CUT", "level": 1},
-		{"id": "SHARP", "level":1}
-	],
-	"tools": [
-	[ [ "tongs", -1 ] ],
-	[ [ "swage", -1 ] ],
-	[ [ "crucible", -1 ],
-	[ "crucible_clay", -1 ] ]
-	]
 }
 ]

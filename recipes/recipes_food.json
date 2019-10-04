@@ -83,7 +83,7 @@
         [ "starch", 1 ],
         [ "dry_rice", 5 ],
 		[ "oats_wild", 4 ],
-		[ "what_wild", 1 ]
+		[ "wheat_wild", 1 ]
       ]
     ]
 },
@@ -123,7 +123,7 @@
         [ "starch", 1 ],
         [ "dry_rice", 5 ],
 		[ "oats_wild", 4 ],
-		[ "what_wild", 1 ]
+		[ "wheat_wild", 1 ]
       ]
     ]
 },
@@ -152,7 +152,7 @@
         [ "starch", 1 ],
         [ "dry_rice", 5 ],
 		[ "oats_wild", 4 ],
-		[ "what_wild", 1 ]
+		[ "wheat_wild", 1 ]
       ]
     ]
 }
