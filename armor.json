@@ -58,7 +58,7 @@
   {
 	"id": "wood_plate_bodyarmor",
 	"type": "ARMOR",
-	"name": "wood plate",
+	"name": "wooden breastplate",
 	"description": "Crude body armor made out of planks, held together by tied-up strings. Fragile, bulky as hell but atleast it protects your fleshy bits.",
 	"weight": 5000,
 	"volume": 16,

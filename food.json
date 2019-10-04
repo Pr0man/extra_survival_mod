@@ -19,5 +19,43 @@
     "flags": [ "EDIBLE_FROZEN" ],
     "charges": 4,
     "fun": 2
+  },
+  {
+    "id": "oats_wild",
+	"copy-from": "oats",
+	"name": "wild oat",
+	"name_plural": "wild oats",
+    "weight": "54 g",
+    "quench": -1,
+    "healthy": 1,
+    "calories": 164,
+    "description": "Oats that are picked from the wild. Their grains are smaller in comparision, but are still edible.",
+    "price": 90,
+    "volume": "125 ml",
+    "flags": [ "EDIBLE_FROZEN", "MILLABLE" ]
+  },
+  {
+    "id": "wheat_wild",
+	"copy-from": "wheat",
+	"name": "wild wheat",
+	"name_plural": "wild wheat",
+    "weight": "128 g",
+    "calories": 468,
+	"healthy": 2,
+    "description": "Wild wheat, picked from nature. Not nearly as nutritious as domesticated wheat, yet tasty and healthy to boot.",
+    "price": 90,
+    "volume": "200 ml",
+    "flags": [ "EDIBLE_FROZEN", "MILLABLE" ]
+  },
+  {
+    "id": "corn_wild",
+	"copy-from": "corn",
+	"name": "wild corn",
+	"name_plural": "wild corn",
+    "weight": "100 g",
+    "calories": 98,
+    "description": "A wild cob of corn picked from the fields.",
+    "price": 90,
+    "volume": "500 ml",
   }
 ]

@@ -1,8 +1,0 @@
-[
-	{
-	    "id": "cotton_charge",
-		"name": "guncotton charge",
-		"default": "guncotton_charge_standard",
-		"type": "ammunition_type"
-	}
-]

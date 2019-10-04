@@ -59,5 +59,101 @@
 		[ "grapes", 4]
     ]
   ]
+},
+{
+    "type": "recipe",
+    "result": "flour",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "45 m",
+    "charges": 15,
+    "autolearn": true,
+    "batch_time_factors": [ 83, 3 ],
+    "flags": [ "BLIND_EASY" ],
+    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ] ] ],
+    "components": [
+      [
+        [ "wheat", 1 ],
+        [ "buckwheat", 1 ],
+        [ "barley", 1 ],
+        [ "acorns_cooked", 2 ],
+        [ "oats", 4 ],
+        [ "starch", 1 ],
+        [ "dry_rice", 5 ],
+		[ "oats_wild", 4 ],
+		[ "what_wild", 1 ]
+      ]
+    ]
+},
+{
+    "type": "recipe",
+    "result": "cornmeal",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "45 m",
+    "autolearn": true,
+    "batch_time_factors": [ 83, 3 ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "rock_quern", -1 ], [ "clay_quern", -1 ] ] ],
+    "components": [ [ [ "corn", 1 ], [ "irradiated_corn", 1 ], [ "corn_wild", 1] ] ]
+},
+{
+    "result": "flour",
+    "type": "recipe",
+    "id_suffix": "with_from_food_processor",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "charges": 15,
+    "time": "11 m 15 s",
+    "autolearn": true,
+    "batch_time_factors": [ 83, 3 ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [
+      [
+        [ "wheat", 1 ],
+        [ "buckwheat", 1 ],
+        [ "barley", 1 ],
+        [ "acorns_cooked", 2 ],
+        [ "oats", 4 ],
+        [ "starch", 1 ],
+        [ "dry_rice", 5 ],
+		[ "oats_wild", 4 ],
+		[ "what_wild", 1 ]
+      ]
+    ]
+},
+{
+    "type": "recipe",
+    "result": "flour",
+    "id_suffix": "mortar",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "skills_required": [ [ "survival", 1 ] ],
+    "difficulty": 2,
+    "charges": 15,
+    "time": "1 h 7 m 30 s",
+    "autolearn": true,
+    "batch_time_factors": [ 83, 3 ],
+    "flags": [ "BLIND_EASY" ],
+    "tools": [ [ [ "mortar_pestle", -1 ] ] ],
+    "components": [
+      [
+        [ "wheat", 1 ],
+        [ "buckwheat", 1 ],
+        [ "barley", 1 ],
+        [ "acorns_cooked", 2 ],
+        [ "oats", 4 ],
+        [ "starch", 1 ],
+        [ "dry_rice", 5 ],
+		[ "oats_wild", 4 ],
+		[ "what_wild", 1 ]
+      ]
+    ]
 }
 ]

@@ -40,51 +40,5 @@
 		  [ "charcoal", 50 ]
 		]
 	  ]
-	},
-	{
-	  "type" : "recipe",
-	  "result": "guncotton_material",
-	  "category": "CC_CHEM",
-	  "subcategory": "CC_CHEM_OTHER",
-	  "skill_used": "survival",
-	  "skills_required": [ ["cooking", 2] ],
-	  "difficulty": 3,
-	  "time" : 30000,
-	  "book_learn": [ ["pocket_survival", 3], ["survival_book", 3], ["textbook_survival", 3]],
-	  "qualities":[
-	  {"id":"CHEM","level":1},
-	  {"id":"COOK","level":2},
-	  {"id":"CUT","level":1}
-	  ],
-	  "tools": [
-		[ [ "surface_heat", 10, "LIST" ] ],
-		[ [ "mortar_pestle", -1 ] ]
-	  ],
-	  "components": [
-		[
-		  [ "chem_saltpetre", 100 ]
-		],
-		[
-			[ "lye_powder", 50],
-			[ "lye", 2 ],
-			[ "gin", 4 ],
-			[ "rum", 4 ],
-			[ "single_malt_whiskey", 4 ],
-			[ "tequila", 4 ],
-			[ "triple_sec", 4 ],
-			[ "vodka", 4 ],
-			[ "whiskey", 4 ],
-			[ "brandy", 4 ]
-		],
-		[
-		  [ "charcoal", 50 ]
-		],
-		[
-		  [ "rag", 15 ]
-		],
-		[
-		  [ "water_clean", 10], [ "water", 10 ]
-		]
-	  ]
 	}
 ]
