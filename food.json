@@ -23,6 +23,7 @@
   {
     "id": "oats_wild",
 	"copy-from": "oats",
+	"comestible_type": "FOOD",
 	"name": "wild oat",
 	"name_plural": "wild oats",
     "weight": "54 g",
@@ -37,6 +38,7 @@
   {
     "id": "wheat_wild",
 	"copy-from": "wheat",
+	"comestible_type": "FOOD",
 	"name": "wild wheat",
 	"name_plural": "wild wheat",
     "weight": "128 g",
@@ -50,6 +52,7 @@
   {
     "id": "corn_wild",
 	"copy-from": "corn",
+	"comestible_type": "FOOD",
 	"name": "wild corn",
 	"name_plural": "wild corn",
     "weight": "100 g",
